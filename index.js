@@ -24,7 +24,7 @@ function appendDriver(){
 function prependDriver(){
   return ["Arnold"].concat(drivers)
 }
-//[thingToInsertToFront].concat(originalArray)
+
 function removeLastDriver(){
   return drivers.slice(0, drivers.length-1)
 }
