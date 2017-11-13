@@ -17,7 +17,7 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift()
 }
 
-function appendDriver(){
+function appendDriver("Broom"){
   return drivers.slice("Broom")
 }
 
